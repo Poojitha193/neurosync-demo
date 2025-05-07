@@ -4,7 +4,8 @@ import streamlit as st
 import json
 
 # Load mock data
-with open("mock_data.json", "r") as f:
+with open("frontend/mock_data.json", "r") as f:
+
     past_cases = json.load(f)
 
 st.set_page_config(page_title="NeuroSync.Health", layout="wide")
